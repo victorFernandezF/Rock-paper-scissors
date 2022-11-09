@@ -1,2 +1,1 @@
-# Rock-paper-scissors
-The game
+# :black_circle: :page_facing_up: :scissors: Rock-paper-scissor [:es:]
