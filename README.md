@@ -1,13 +1,13 @@
 # :black_circle: :page_facing_up: :scissors: Rock-paper-scissor
 ## Info [:gb:]
 ### Description
-The classical game of rock paper and scissors.
+The classical game of rock paper and scissors.   
 Try to defeat the machine if you dare.
 
 ### language
-Javascript
-Html
-Css
+Javascript.  
+Html.   
+Css.   
 
 ### status
 In progress
@@ -32,13 +32,13 @@ In progress
 
 ## Informacion [:es:]
 ### Descripción
-El clásico juego de piedra papel o tijeras.
+El clásico juego de piedra papel o tijeras.   
 ¿Cree que podrá ganar a la máquina?
 
 ### lenguaje
-Javascript
-Html
-Css
+Javascript.   
+Html.   
+Css.   
 
 ### Estado
 Trabajando en ello.
