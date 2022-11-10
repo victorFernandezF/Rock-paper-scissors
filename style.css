@@ -16,11 +16,11 @@ body {
     padding: 0;
 }
 .mega-container{
-    margin-top: 10px;
+    background-color: antiquewhite;
     width:95%;
-    margin-left: 2%;
-    padding-bottom: 30px;
-    /* background-color: wheat; */
+    height:80%;
+    display: flex;
+    justify-content: center;
 }
 
 .super-container {
@@ -31,6 +31,7 @@ body {
     width: 100%;
     /* height: 100%; */
     display: flex;
+    justify-content: center;
 }
 
 .title{
