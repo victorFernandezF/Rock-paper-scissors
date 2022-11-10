@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <button id="btn_sci" onclick="user_select('scisor')">SCI</button>
-    <button id="btn_sto" onclick="user_select('stone')">STO</button>
-    <button id="btn_pap" onclick="user_select('paper')">PAP</button>
-    <button id="btn_play" onclick="play()">PLAY</button>
+    <div class="mega-container">
+        <div class="container">
+            <h1>ROCK PAEPER SCISOR</h1>
+            <h4>Result</h4>
+            <div class="buttons">
+                <button id="btn_sci" onclick="user_select('scisor')">SCI</button>
+                <button id="btn_sto" onclick="user_select('stone')">STO</button>
+                <button id="btn_pap" onclick="user_select('paper')">PAP</button>
+            </div>
+                <button id="btn_play" onclick="play()">PLAY</button>
+        </div>
+    </div>
 </body>
 
 <script src="functions.js"></script>
