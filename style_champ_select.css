@@ -71,7 +71,28 @@
     width: 117px;
     margin-left: 19px;
 }
+
 .linkimg:hover{
     height: 113px;
     width: 113px;
+}
+
+.img_div{
+    background-color: azure;
+    width: 130px;
+    height: 135px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.img_divvs{
+    width: 130px;
+    height: 135px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 56px;
 }

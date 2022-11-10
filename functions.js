@@ -3,6 +3,8 @@ let select = "none";
 let machine = "none";
 let btn_play = document.getElementById("btn_play");
 btn_play.disabled=true;
+let img_user = document.getElementById("img_user");
+let img_pc = document.getElementById("img_pc");
 
 function user_select(param){
         select = param;
@@ -10,19 +12,22 @@ function user_select(param){
 }
 
 function result(){
-    let scisor = {stone:"lose", scisor:"draw", paper:"win"};
-    let stone = {stone:"draw", scisor:"win", paper:"lose"};
-    let paper = {stone:"win", scisor:"lose", paper:"draw"};
+    let scisor = {rock:"lose", scisor:"draw", paper:"win"};
+    let rock = {rock:"draw", scisor:"win", paper:"lose"};
+    let paper = {rock:"win", scisor:"lose", paper:"draw"};
     if (select == "scisor")
         return scisor[machine];
-    if (select == "stone")
-        return stone[machine];
+    if (select == "rock")
+        return rock[machine];
     if (select == "paper")
         return paper[machine];
 }
 
 function play(){
-    machine_select();
+    let machine = machine_select();
+    img_user.src = "img/"+select+".webp";
+    console.log(machine);
+    img_pc.src = "img/"+machine+".webp";
     let res = result();
     let message = "";
     if(res == "win")
@@ -40,7 +45,7 @@ function machine_select(){
     if (rand == 1)
         machine = "scisor";
     if (rand == 2)
-        machine = "stone";
+        machine = "rock";
     if (rand == 3)
         machine = "paper";
     return machine;
