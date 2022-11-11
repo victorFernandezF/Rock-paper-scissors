@@ -1,0 +1,111 @@
+@import url("base_styles.css");
+
+.mega-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: var(--white);
+}
+
+.super-container {
+    margin-top: 130px;
+}
+
+.super-container {
+    margin-top: 10px;
+}
+
+.container{
+    background: var(--white);
+    width: 1582px;
+    display: flex;
+    justify-content: center;       
+}
+
+.item{
+    background: var(--bg-gray);
+    width: 1014px;
+    border: 2px solid var(--black);
+    margin-top: 8px;
+    margin-left: 13px;
+    margin-right: 14px;
+}
+
+.cont{
+    background: var(--bg-gray);
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin-top: 21px;
+    margin-left: 18%;
+}
+
+.conto{
+    background: var(--bg-gray);
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin-left: 18%;
+}
+
+.btn{
+    width: 130px;
+    height: 135px;
+    margin: auto;
+}
+
+.btn:focus{
+    border: 2px solid blue;
+}
+
+.btn-play{
+    width: 570px;
+    height: 46px;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+
+.img-div{
+    background-color: azure;
+    width: 130px;
+    height: 140px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.img-divvs{
+    width: 130px;
+    height: 135px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 56px;
+}
+
+.img{
+    width: 98%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-chosen{
+    width:82px;
+    height:82px;
+}
+
+.title{
+    width: 100%;
+    height: 33px;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
