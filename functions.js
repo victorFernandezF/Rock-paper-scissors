@@ -4,12 +4,11 @@ let machine = "none";
 let Interval = 0;
 let Timeout = 0;
 let btn_play = document.getElementById("btn_play");
-btn_play.disabled=true;
-let img_user = document.getElementById("img_user");
-let img_pc = document.getElementById("img_pc");
 let check = 0;
+btn_play.disabled=true;
 
 function startImgChange(){
+    let img_pc = document.getElementById("img_pc");
     check++;
     const img_i = Math.floor(Math.random() * 3) + 1
     if(img_i == 1)
@@ -18,16 +17,14 @@ function startImgChange(){
         img_pc.src = "img/rock.webp"; 
     if(img_i == 3)
         img_pc.src = "img/paper.webp";
-    console.log(img_i)
     if (check == 20)
     {
         clearInterval(Interval);
-        finish()
+        finish(img_pc)
     }
-	}
+}
 
-function finish(){
-    console.log("OUI")
+function finish(img_pc){
     img_pc.src = "img/"+machine+".webp";
     let res = result();
     let message = "";
@@ -40,9 +37,9 @@ function finish(){
     document.getElementById("result").innerText = message;
 }
 
-function user_select(param){
-        select = param;
-        btn_play.disabled=false;
+function user_select(item){    
+    select = item;
+    btn_play.disabled=false;
 }
 
 function result(){
@@ -58,13 +55,12 @@ function result(){
 }
 
 function play(){
+    let img_user = document.getElementById("img_user");
     machine = machine_select();
     console.log(machine);
     img_user.src = "img/"+select+".webp";
     check = 0;
-    Interval = window.setInterval(startImgChange, 90);
-    
-    /* console.log ("user "+ select +" machine "+ machine + " result" + " user " +res) */
+    Interval = window.setInterval(startImgChange, 50);
 }
 
 function machine_select(){
