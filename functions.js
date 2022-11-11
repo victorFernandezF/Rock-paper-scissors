@@ -1,4 +1,5 @@
 
+// VARIABLES
 let select = "none";
 let machine = "none";
 let Interval = 0;
@@ -7,6 +8,10 @@ let btn_play = document.getElementById("btn_play");
 let check = 0;
 btn_play.disabled=true;
 
+/*  
+CHANGE THE IMAGE OF THE COMPUTER'S CHOSEN ITEM EACH 50 MILISECONDS
+IN ORDER TO MAKE A NICE EFFECT. 
+*/
 function startImgChange(){
     let img_pc = document.getElementById("img_pc");
     check++;
@@ -24,6 +29,10 @@ function startImgChange(){
     }
 }
 
+/*
+PUTS THE CORRECT IMAGE OF THE COMPUTER'S ITEM.
+CREATE THE MESSAGE WITH THE RESULT OF THE GAME.
+*/
 function finish(img_pc){
     img_pc.src = "img/"+machine+".webp";
     let res = result();
@@ -37,11 +46,16 @@ function finish(img_pc){
     document.getElementById("result").innerText = message;
 }
 
+// GET THE USER ITEM AND ENABLE THE BUTTON PLAY
 function user_select(item){    
     select = item;
     btn_play.disabled=false;
 }
 
+/*
+EVALUATE THE RESULT OF THE GAME DEPENDING ON THE ITEMS
+CHOSEN BY THE PLAYER AND THE PC
+*/
 function result(){
     let scisor = {rock:"lose", scisor:"draw", paper:"win"};
     let rock = {rock:"draw", scisor:"win", paper:"lose"};
@@ -54,6 +68,7 @@ function result(){
         return paper[machine];
 }
 
+// MAIN FUNCTION. IT STARTS THE GAME.
 function play(){
     let img_user = document.getElementById("img_user");
     machine = machine_select();
@@ -62,6 +77,7 @@ function play(){
     Interval = window.setInterval(startImgChange, 50);
 }
 
+// CHOSE RANDOMLY AN ITEM FOR THE COMPUTER.
 function machine_select(){
     const rand = Math.floor(Math.random() * 3) + 1
     if (rand == 1)
