@@ -57,7 +57,6 @@ function result(){
 function play(){
     let img_user = document.getElementById("img_user");
     machine = machine_select();
-    console.log(machine);
     img_user.src = "img/"+select+".webp";
     check = 0;
     Interval = window.setInterval(startImgChange, 50);
