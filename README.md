@@ -25,7 +25,7 @@ In progress
 
 ### Image
 
-<img src="screenshot.jpg" alt="Morse-code-translator" width="400px"/>
+<img src="img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
 
 
 <hr/>
@@ -51,8 +51,8 @@ Trabajando en ello.
 ### ¿Cómo usar?
 > - El usuario deber entre piedra papel o tijeras.     
 > - La máquina hará lo propio.
-< - Dependiendo de los objetos elegidos, se evaluará el resultado.
+> - Dependiendo de los objetos elegidos, se evaluará el resultado.
 
 ### Imagen
 
-<img src="screenshot.jpg" alt="Morse-code-translator" width="400px"/>
+<img src="img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
