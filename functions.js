@@ -7,6 +7,7 @@ let Timeout = 0;
 let btn_play = document.getElementById("btn_play");
 let check = 0;
 btn_play.disabled=true;
+let points = [0, 0];
 
 /*  
 CHANGE THE IMAGE OF THE COMPUTER'S CHOSEN ITEM EACH 50 MILISECONDS
@@ -37,10 +38,14 @@ function finish(img_pc){
     img_pc.src = "img/"+machine+".webp";
     let res = result();
     let message = "";
-    if(res == "win")
-        message = "Has ganado";
-    if(res == "lose")
-        message = "Has perdido";
+    if(res == "win"){
+        message = "ganaste";
+		points[0] += 1;
+	}
+	if(res == "lose"){
+		message = "perdiste";
+		points[1] += 1;
+	}
     if(res == "draw")
         message = "Empate";
     document.getElementById("result").innerText = message;
@@ -56,7 +61,7 @@ function user_select(item){
 }
 
 // Change the style of the selected button.
-function    selectCurrentButton(id){
+function selectCurrentButton(id){
     if (id == "btn_rock"){
         document.getElementById("btn_rock").className="btn-current";
         document.getElementById("btn_paper").className="btn";
@@ -97,6 +102,8 @@ function play(){
     img_user.src = "img/"+select+".webp";
     check = 0;
     Interval = window.setInterval(startImgChange, 50);
+	console.log("user", points[0]);
+	console.log("pc", points[1]);
 }
 
 // CHOSE RANDOMLY AN ITEM FOR THE COMPUTER.
