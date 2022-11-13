@@ -50,6 +50,22 @@
     margin-left: 18%;
 }
 
+.div-name{
+    color: var(--dark_4);
+    background-color: var(--dark_2);
+    word-spacing: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 68px;
+    margin-left: 18%;
+    border-radius: 100px;
+    margin-top: -41px;
+    margin-bottom: 21px;
+    border: 2px solid var(--dark_4);
+}
+
 .label{
     background-color: var(--dark_5);
     border-radius: 50px;
