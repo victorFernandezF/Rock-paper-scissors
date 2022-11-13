@@ -33,24 +33,5 @@ img{
 }
 
 @media only screen and (max-width: 600px) {
-.title-generic{
-    color: var(--white);
-    width: unset;
-    display: flex;
-    justify-content: center;
-    background: var(--generic);
-}
-
-.title-view{
-    color: var(--white);
-    width: unset;
-    /* border-bottom-right-radius: 83px;
-    border-top-right-radius: 83px; */
-    border-bottom: 2px solid var(--black);
-    display: flex;
-    justify-content: center;
-}
-
-
 
 }

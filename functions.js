@@ -49,6 +49,8 @@ function finish(img_pc){
     if(res == "draw")
         message = "Empate";
     document.getElementById("result").innerText = message;
+    document.getElementById("usr_pts").innerText = "pts: "+points[0];
+    document.getElementById("pc_pts").innerText = "pts: "+points[1];
 }
 
 // GET THE USER ITEM AND ENABLE THE BUTTON PLAY
