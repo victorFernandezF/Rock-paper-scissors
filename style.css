@@ -55,8 +55,11 @@
     margin: auto;
 }
 
-.btn:focus{
+.btn-current{
     border: 2px solid blue;
+    width: 130px;
+    height: 135px;
+    margin: auto;
 }
 
 .btn-play{

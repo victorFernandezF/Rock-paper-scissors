@@ -50,6 +50,28 @@ function finish(img_pc){
 function user_select(item){    
     select = item;
     btn_play.disabled=false;
+    let id = "btn_"+item;
+    selectCurrentButton(id);
+    document.getElementById(id).className="btn-current";
+}
+
+// Change the style of the selected button.
+function    selectCurrentButton(id){
+    if (id == "btn_rock"){
+        document.getElementById("btn_rock").className="btn-current";
+        document.getElementById("btn_paper").className="btn";
+        document.getElementById("btn_scisor").className="btn";
+    }
+    if (id == "btn_paper"){
+    	document.getElementById("btn_rock").className="btn";
+        document.getElementById("btn_paper").className="btn-current";
+        document.getElementById("btn_scisor").className="btn";
+    }
+	if (id == "btn_scisor"){
+        document.getElementById("btn_rock").className="btn";
+        document.getElementById("btn_paper").className="btn";
+        document.getElementById("btn_scisor").className="btn-current";
+    }
 }
 
 /*
