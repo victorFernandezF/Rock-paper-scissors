@@ -50,6 +50,14 @@
     margin-left: 18%;
 }
 
+.label{
+    background-color: var(--dark_5);
+    border-radius: 50px;
+    width: 227px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .btn{
     width: 130px;
     height: 135px;
