@@ -1,23 +1,17 @@
 :root{
-
-/* dark pack */
---dark_1: #404258;
---dark_2: #474E68;
---dark_3: #50577A;
---dark_3: #6B728E;
-
-
-
---background: #121212;
---background_grad: ;
-
-
 --white: white;
---bg-gray: rgb(209, 210, 210);
---black: black;
+--bg-gray: gray;
+/* dark pack */
+--dark_1: #041C32;
+--dark_2: #04293A;
+--dark_3: #064663;
+--dark_4: #ECB365;
+--dark_5: #257093; /*btn*/
+--dark_6: #619ebb; /*selected button*/
+--dark_shadow: black; /*selected button*/
 }
 
-html {
+body, html {
     height: 100%;
 }
   
@@ -57,20 +51,6 @@ img{
     justify-content: center;
 }
 
-.raw{
-    background: var(--raw);
-}
 
-.sd{
-    background: var(--sd);
-}
-
-.nxt{
-    background: var(--nxt);
-}
-
-.all{
-    background: var(--all);
-}
 
 }

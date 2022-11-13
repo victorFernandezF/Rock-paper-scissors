@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     height: 100%;
-    background-color: var(--white);
+    background-color: var(--dark_1);
 }
 
 .super-container {
@@ -17,23 +17,24 @@
 }
 
 .container{
-    background: var(--white);
     width: 1582px;
     display: flex;
     justify-content: center;       
 }
 
 .item{
-    background: var(--bg-gray);
-    width: 1014px;
-    border: 2px solid var(--black);
+    background: var(--dark_3);
+    width: 791px;
+    border: 2px solid var(--dark_4);
     margin-top: 8px;
     margin-left: 13px;
     margin-right: 14px;
+    border-radius: 87px;
+    box-shadow: 21px 21px 19px 0px var(--dark_shadow);
 }
 
 .cont{
-    background: var(--bg-gray);
+    background: var(--dork_2);
     display: flex;
     justify-content: center;
     width: 65%;
@@ -41,8 +42,8 @@
     margin-left: 18%;
 }
 
-.conto{
-    background: var(--bg-gray);
+.div-text{
+    color: var(--dark_4);
     display: flex;
     justify-content: center;
     width: 65%;
@@ -53,28 +54,36 @@
     width: 130px;
     height: 135px;
     margin: auto;
+    background-color: var(--dark_5);
 }
 
 .btn-current{
-    border: 2px solid blue;
+    border: 2px solid var(--dark_4);
+    background-color: var(--dark_6);
     width: 130px;
     height: 135px;
     margin: auto;
 }
 
 .btn-play{
-    width: 570px;
-    height: 46px;
+    width: 463px;
+    font-size: 38px;
+    height: 61px;
     margin: auto;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    background-color: var(--dark_4);
+    border-radius: 30px;
+    font-weight: bold;
 }
 
 .img-div{
-    background-color: azure;
+    background-color: var(--dark_6);
     width: 130px;
     height: 140px;
     margin: auto;
     border: 2px solid black;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
 }
 
 .img-divvs{
@@ -86,6 +95,7 @@
     display: flex;
     align-items: center;
     font-size: 56px;
+    color: var(--dark_4);
 }
 
 .img{
@@ -106,7 +116,7 @@
     width: 100%;
     height: 33px;
     background-color: black;
-    color: azure;
+    color: var(--dark_4);
     text-align: center;
     align-items: center;
     justify-content: center;
