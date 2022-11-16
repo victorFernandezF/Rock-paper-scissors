@@ -1,0 +1,33 @@
+:root{
+--white: white;
+--bg-gray: gray;
+/* dark pack */
+--dark_1: #041C32;
+--dark_2: #04293A;
+--dark_3: #064663;
+--dark_4: #ECB365;
+--dark_5: #257093; /*btn*/
+--dark_6: #619ebb; /*selected button*/
+--dark_shadow: black; /*selected button*/
+}
+
+body, html {
+    height: 100%;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
