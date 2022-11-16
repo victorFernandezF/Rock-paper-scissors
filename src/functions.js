@@ -2,7 +2,6 @@
 let select = "none";
 let machine = "none";
 let Interval = 0;
-let Timeout = 0;
 let btn_play = document.getElementById("btn_play");
 let check = 0;
 btn_play.disabled=true;
