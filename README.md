@@ -4,10 +4,11 @@
 The classical game of rock paper and scissors.   
 Try to defeat the machine if you dare.
 
-### language
+### Technologies
 Javascript.  
 Html.   
-Css.   
+Css.  
+Electron.   
 
 ### status
 Done
@@ -18,7 +19,7 @@ Done
 ~~~~
 
 ### installation
-> - Download the exe.rar
+> - Download the *exe.rar* file
 > - Extract the files
 > - Execute "Rock_paper_scisors.exe"
 > - Enjoy
@@ -26,7 +27,7 @@ Done
 or
 
 > - clone this repo
-> - go to src
+> - go to src directory
 > - Double click index.html
 > - Enjoy
 
@@ -47,10 +48,11 @@ or
 El clásico juego de piedra papel o tijeras.   
 ¿Cree que podrá ganar a la máquina?
 
-### lenguaje
+### Tecnologías usadas
 Javascript.   
 Html.   
-Css.   
+Css.  
+Electron.   
 
 ### Estado
 Terminado.
