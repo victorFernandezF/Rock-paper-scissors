@@ -10,7 +10,7 @@ Html.
 Css.   
 
 ### status
-In progress
+Done
 
 ### Clone Repository
 ~~~~
@@ -18,8 +18,16 @@ In progress
 ~~~~
 
 ### installation
-> - Download the index.html
-> - Open it
+> - Download the exe.rar
+> - Extract the files
+> - Execute "Rock_paper_scisors.exe"
+> - Enjoy
+
+or
+
+> - clone this repo
+> - go to src
+> - Double click index.html
 > - Enjoy
 
 ### Usage
@@ -29,7 +37,7 @@ In progress
 
 ### Image
 
-<img src="img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
+<img src="src/img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
 
 
 <hr/>
@@ -45,7 +53,7 @@ Html.
 Css.   
 
 ### Estado
-Trabajando en ello.
+Terminado.
 
 ### Clonar Repositorio
 ~~~~
@@ -53,15 +61,23 @@ Trabajando en ello.
 ~~~~
 
 ### instalación
-> - Descargue el archivo index.html
-> - Haga doble click en el.
-> - Disfrute.
+> - Descargue archivo exe.rar
+> - Descomprímalo
+> - Ejecute "Rock_paper_scisors.exe"
+> - Disfrute
+
+or
+
+> - clone el repositorio
+> - Vaya a la carpeta "src"
+> - Abra el archivo index.html
+> - Disfrute
 
 ### ¿Cómo usar?
-> - El usuario deber entre piedra papel o tijeras.     
+> - El usuario debe elegir entre piedra papel o tijeras.     
 > - La máquina hará lo propio.
 > - Dependiendo de los objetos elegidos, se evaluará el resultado.
 
 ### Imagen
 
-<img src="img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
+<img src="src/img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
