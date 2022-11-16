@@ -12,6 +12,10 @@ Css.
 ### status
 In progress
 
+### Clone Repository
+~~~~
+  git clone https://github.com/victorFernandezF/Rock-paper-scissors.git   
+~~~~
 
 ### installation
 > - Download the index.html
@@ -42,6 +46,11 @@ Css.
 
 ### Estado
 Trabajando en ello.
+
+### Clonar Repositorio
+~~~~
+  git clone https://github.com/victorFernandezF/Rock-paper-scissors.git   
+~~~~
 
 ### instalación
 > - Descargue el archivo index.html
