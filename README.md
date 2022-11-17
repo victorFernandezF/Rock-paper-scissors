@@ -40,6 +40,11 @@ or
 
 <img src="src/img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
 
+### CREDITS
+I got the idea from the mouredev/Code-Challenges repository:
+~~~~
+https://github.com/mouredev/Code-Challenges.git
+~~~~
 
 <hr/>
 
@@ -83,3 +88,9 @@ or
 ### Imagen
 
 <img src="src/img/screenshot.jpg" alt="Rock Paper Scisor" width="300px"/>
+
+### CREDITOS
+La idea la he sacado del repositorio: mouredev/Code-Challenges
+~~~~
+https://github.com/mouredev/Code-Challenges.git
+~~~~
