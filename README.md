@@ -19,7 +19,7 @@ Done
 ~~~~
 
 ### installation
-> - Download the *exe.rar* file
+> - Download the *exe.zip* file
 > - Extract the files
 > - Execute "Rock_paper_scisors.exe"
 > - Enjoy
@@ -68,7 +68,7 @@ Terminado.
 ~~~~
 
 ### instalación
-> - Descargue archivo exe.rar
+> - Descargue archivo *exe.zip*
 > - Descomprímalo
 > - Ejecute "Rock_paper_scisors.exe"
 > - Disfrute
