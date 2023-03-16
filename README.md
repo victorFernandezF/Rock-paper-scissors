@@ -73,7 +73,7 @@ Terminado.
 > - Ejecute "Rock_paper_scisors.exe"
 > - Disfrute
 
-or
+o
 
 > - clone el repositorio
 > - Vaya a la carpeta "src"
